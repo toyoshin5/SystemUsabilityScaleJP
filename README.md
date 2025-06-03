@@ -1,6 +1,6 @@
 # SystemUsabilityScaleJP
 
-HCI研究で広く使用されるSystem Usability Scale (SUS)のSwiftUI実装です。
+HCI研究で広く使用されるSystem Usability Scale (SUS)を実施するライブラリです。
 
 ## 概要
 
