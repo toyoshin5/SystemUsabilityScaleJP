@@ -11,7 +11,7 @@ System Usability Scale (SUS)は、システムのユーザビリティを測定�
 
 ## 特徴
 
-- ✅ 標準的なSUS 10項目の質問（日本語版）
+- ✅ SUS 10項目の質問
 - ✅ 自動的なSUSスコア計算
 - ✅ グレード評価（A+〜F）
 - ✅ カスタム質問項目対応
@@ -19,8 +19,6 @@ System Usability Scale (SUS)は、システムのユーザビリティを測定�
 ## インストール
 
 ### Swift Package Manager
-
-Xcodeで以下の手順でインストールできます：
 
 1. File → Add Package Dependencies...
 2. URLに `https://github.com/toyoshin5/SystemUsabilityScaleJP` を入力
@@ -131,10 +129,6 @@ SystemUsabilityScaleView(
 }
 ```
 
-### 進捗表示のカスタマイズ
-
-進捗表示は自動的に有効になり、現在の質問番号と全体の進捗が表示されます。UIは円形のボタンインターフェースで直感的な操作が可能です。
-
 ## API リファレンス
 
 ### SystemUsabilityScaleView
@@ -183,18 +177,6 @@ struct SUSQuestionItem {
 ## 要件
 
 - iOS 17.0+
-- Xcode 15.0+
-- Swift 5.9+
-
-## トラブルシューティング
-
-### よくある問題
-
-**Q: スコアが期待した値にならない**
-A: SUSスコアは標準的な計算式に基づいています。肯定的質問（1,3,5,7,9番）と否定的質問（2,4,6,8,10番）で計算方法が異なります。
-
-**Q: カスタム質問でエラーが発生する**
-A: 質問は必ず10項目である必要があります。また、`isPositive`フラグを適切に設定してください。
 
 ## SUS スコア計算方法
 
