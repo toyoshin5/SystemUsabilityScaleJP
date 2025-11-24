@@ -1,6 +1,6 @@
 # SystemUsabilityScaleJP
 
-HCI研究で広く使用されるSystem Usability Scale (SUS)を実施するライブラリです。
+ユーザビリティ評価手法として利用されるSystem Usability Scale (SUS)を実施するライブラリです。
 
 <img width="218" alt=" 2025-06-03 19 11 16" src="https://github.com/user-attachments/assets/0dfe999e-7be5-449b-9766-f135dcbc8e32" />
 
