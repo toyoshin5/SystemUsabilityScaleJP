@@ -64,7 +64,7 @@ struct ContentView: View {
 }
 ```
 
-### 結果の活用
+### 結果の取得方法
 
 ```swift
 SystemUsabilityScaleView(
